@@ -1,0 +1,72 @@
+/* Education Section */
+.education-section {
+  padding: 100px 0;
+}
+
+.education-timeline {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.education-item {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid #667eea;
+  transition: transform 0.3s ease;
+}
+
+.education-item:hover {
+  transform: translateY(-3px);
+}
+
+.education-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.degree {
+  color: #1a202c;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.institution {
+  color: #667eea;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.education-details p {
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+}
+
+.certifications-list {
+  list-style: none;
+}
+
+.certifications-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+}
+
+.certifications-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+}
+
+/* Responsive Design for Education Section */
+@media (max-width: 768px) {
+  .education-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
