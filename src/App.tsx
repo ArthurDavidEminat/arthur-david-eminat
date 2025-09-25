@@ -9,11 +9,13 @@ function App() {
   return (
     <div>
       <Navigation />
-      <LandingPage />
-      <AboutPage />
-      <EducationPage />
-      <ExperiencePage />
-      <ProjectsPage />
+      <main>
+        <LandingPage />
+        <AboutPage />
+        <EducationPage />
+        <ExperiencePage />
+        <ProjectsPage />
+      </main>
     </div>
   );
 }
