@@ -38,32 +38,44 @@ h6 {
   margin-bottom: 1rem;
   color: var(--lightest-slate);
 }
-
-.section-title {
-  font-size: var(--fz-heading);
-  text-align: center;
-  margin-bottom: 3rem;
-  color: var(--lightest-slate);
-  position: relative;
+main {
+  padding: 0 100px;
+  counter-reset: section;
 }
 
+.section-title {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 0px 40px;
+  width: 100%;
+  font-size: clamp(26px, 5vw, var(--fz-heading));
+  white-space: nowrap;
+}
+
+.section-title::before {
+  position: relative;
+  bottom: 4px;
+  counter-increment: section 1;
+  content: "0" counter(section) ".";
+  margin-right: 10px;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
+  font-weight: 400;
+}
 .section-title::after {
   content: "";
   display: block;
-  width: 60px;
-  height: 4px;
-  background: linear-gradient(
-    135deg,
-    var(--green) 0%,
-    var(--lightest-navy) 100%
-  );
-  margin: 1rem auto;
-  border-radius: var(--border-radius);
+  position: relative;
+  top: -5px;
+  width: 300px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--lightest-navy);
 }
 
-main {
-  padding: 0 100px;
-}
 /* Responsive Design */
 @media (max-width: 768px) {
   .section-title {
