@@ -16,7 +16,7 @@ function EducationPage() {
               </span>
               <span className="duration">Feb 2025</span>
             </div>
-            <div className="education-details">
+            {/* <div className="education-details">
               <p>
                 <strong>Specialization:</strong> ERP & Business Analytics
               </p>
@@ -25,7 +25,7 @@ function EducationPage() {
                 Advanced Analytics, Business Intelligence, Data-driven Decision
                 Making, Strategic Management
               </p>
-            </div>
+            </div> */}
           </div>
 
           <div className="education-item">
@@ -36,7 +36,7 @@ function EducationPage() {
               <span className="institution">Uganda Christian University</span>
               <span className="duration">Dec 2012</span>
             </div>
-            <div className="education-details">
+            {/* <div className="education-details">
               <p>
                 <strong>Concentration:</strong> Data Analytics
               </p>
@@ -45,14 +45,14 @@ function EducationPage() {
                 Procurement Strategy, Logistics Operations, Data Analysis,
                 Statistical Methods, Business Process Optimization
               </p>
-            </div>
+            </div> */}
           </div>
 
           <div className="education-item">
             <div className="education-header">
               <h3 className="degree">Professional Certifications</h3>
               <span className="institution">Various Institutions</span>
-              <span className="duration">2015 - Present</span>
+              {/* <span className="duration">2015 - Present</span> */}
             </div>
             <div className="education-details">
               <ul className="certifications-list">
