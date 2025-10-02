@@ -38,6 +38,14 @@ h6 {
   margin-bottom: 1rem;
   color: var(--lightest-slate);
 }
+
+li {
+  list-style: none;
+}
+button {
+  border: 0px;
+  border-radius: 0px;
+}
 main {
   padding: 0 100px;
   counter-reset: section;

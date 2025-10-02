@@ -1,5 +1,5 @@
 import "../styles/AboutPage.css";
-import ArthurProfilePicture from "../../public/images/dae.jpg";
+import ArthurProfilePicture from "../assets/images/dae.jpg";
 
 function AboutPage() {
   return (

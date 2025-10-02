@@ -1,0 +1,57 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "company": "Family Office",
+      "title": "Digital Asset Strategist",
+      "duration": "Jan 2020 - Jan 2025",
+      "achievements": [
+        "Collaborated with institutional stakeholders to manage multi-million dollar strategies across Stablecoins, Layer 1/2 (Ethereum, Solana), DeFi, and RWAs",
+        "Executed advanced trading strategies for family offices and private investors, delivering consistent double-digit returns through systematic risk management",
+        "Analyzed complex market dynamics using COT data, on-chain metrics, and macro positioning strategies to identify sector imbalances and AI-blockchain investment opportunities",
+        "Conducted deep-dive research on tokenomics, traditional assets (FX, commodities, equities), and blockchain interoperability",
+        "Counseled ultra-high-net-worth clients on strategic asset allocation and portfolio rebalancing, ensuring regulatory compliance and tax optimization"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "National Social Security Fund",
+      "title": "Growth and ESG Partner (Regional Operations)",
+      "duration": "Jul 2022 - Jan 2025",
+      "achievements": [
+        "Built strategic ESG sourcing framework incorporating category management principles, driving measurable cost savings and enhanced supplier performance",
+        "Led partner onboarding and compliance procedures for 50+ regional suppliers, improving procurement efficiency by 40%",
+        "Created executive-level monthly business review dashboards using Power BI and Tableau, supporting strategic spend analysis for $100M+ procurement portfolio",
+        "Implemented scalable de-risking strategies and performance measurement tools, proactively managing supplier risks",
+        "Collaborated with C-level executives, regulators, and external stakeholders to integrate ESG best practices into supplier relationship management"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "National Social Security Fund",
+      "title": "IT Strategy Analyst (Project Management)",
+      "duration": "Jul 2018- Jun 2022",
+      "achievements": [
+        "Negotiated and managed IT service contracts worth $10M+, optimizing costs and strengthening vendor relationships through strategic contract management",
+        "Streamlined requisition-to-pay workflows by integrating ERP systems (SAP, Oracle) with BI tools and automation, improving contract management efficiency by 80%",
+        "Achieved 135% departmental performance target by implementing data-driven performance framework using Crystal Reports and advanced analytics",
+        "Directed five major transformation projects, including AI-powered suspense account resolution with Microsoft, delivering 80% process efficiency improvement",
+        "Led cloud migration and IT infrastructure optimization initiatives, reducing operational costs by 50% while enhancing system performance",
+        "Served as Product Owner for core analytics platforms, delivering 30+ executive dashboards and strategic insights for senior management decision-making"
+      ]
+    },
+    {
+      "id": 4,
+      "company": "National Social Security Fund",
+      "title": "Procurement Specialist - Data Analytics",
+      "duration": "Sep 2013 - Jun 2018",
+      "achievements": [
+        "Generated $18.97M in cost savings through strategic vendor contract negotiations while maintaining and enhancing key supplier relationships",
+        "Reduced procurement cycle times by 40% through process automation, Lean methodologies, and comprehensive ERP integration (SAP, e-GP)",
+        "Implemented IT Balanced Scorecard framework, achieving 96% success rate and aligning procurement activities with organizational performance metrics",
+        "Resolved 15-month supplier payment backlog worth $5M+, restoring vendor trust and improving supplier performance through strategic payment initiatives",
+        "Served as national change agent for Uganda's World Bank-funded e-GP system, leading institutional adoption and capacity building initiatives"
+      ]
+    }
+  ]
+}

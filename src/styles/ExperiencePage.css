@@ -4,24 +4,51 @@
 }
 
 .experience-timeline {
-  max-width: 800px;
-  margin: 0 auto;
+  display: flex;
+  gap: 20px;
 }
 
 .experience-item {
-  background: white;
-  border-radius: 12px;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  border-left: 4px solid #667eea;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.experience-button {
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: var(--transition);
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  height: var(--tab-height);
+  padding: 0px 20px 2px;
+  border-left: 2px solid var(--lightest-navy);
+  background-color: transparent;
+  color: var(--slate);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+  text-align: left;
+  white-space: nowrap;
 }
 
-.experience-item:hover {
+.experience-button.active {
+  background-color: var(--lightest-navy);
+  color: var(--green);
+  outline: 0px;
+  border-left: 2px solid var(--green);
+}
+
+.experience-button:hover,
+.experience-button:focus {
+  background-color: var(--lightest-navy);
+  color: var(--green);
+  outline: 0px;
+}
+
+/* .experience-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .experience-header {
   display: flex;
@@ -30,9 +57,14 @@
 }
 
 .job-title {
-  color: #1a202c;
-  font-size: 1.3rem;
+  color: var(--lightest-slate);
   margin-bottom: 0.5rem;
+  font-size: var(--fz-xxl);
+  font-weight: 500;
+}
+
+.job-title span {
+  color: var(--green);
 }
 
 .company {
@@ -42,8 +74,10 @@
 }
 
 .duration {
-  color: #718096;
-  font-size: 0.9rem;
+  /* margin-bottom: 30px; */
+  color: var(--light-slate);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
 }
 
 .job-description {
@@ -59,11 +93,10 @@
 }
 
 .job-description li::before {
-  content: "▸";
+  content: "▹";
   position: absolute;
   left: 0;
-  color: #667eea;
-  font-weight: bold;
+  color: var(--green);
 }
 
 /* Responsive Design for Experience Section */
