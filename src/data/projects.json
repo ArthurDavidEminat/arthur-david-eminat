@@ -5,23 +5,16 @@
       "name": "Skyfall - Enterprise System Replacement",
       "description": "Led the replacement of JDE with a new system supporting parameterized products, software as a service, data as a service, agency integration, and developer ecosystem readiness. Delivered 80% process efficiency improvement through AI-powered solutions.",
       "technologies": [
-        "Enterprise Architecture",
         "SAP Integration",
         "AI & Machine Learning",
-        "Cloud Migration",
-        "API Development"
+        "Cloud Migration"
       ]
     },
     {
       "id": 2,
       "name": "Treadstone - Mobile & Web Analytics Platform",
       "description": "Rebuilt mobile and web applications into analytics engines and personal assistants to drive engagement. Created comprehensive analytics platform with real-time insights and user engagement optimization.",
-      "technologies": [
-        "React Native",
-        "Web Analytics",
-        "Data Visualization",
-        "User Experience"
-      ]
+      "technologies": ["Web Analytics", "Data Visualization", "User Experience"]
     },
     {
       "id": 3,

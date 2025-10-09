@@ -1,4 +1,4 @@
-import Navigation from "./Navigation";
+import Header from "./Header";
 import LandingPage from "./Pages/LandingPage";
 import AboutPage from "./Pages/AboutPage";
 import EducationPage from "./Pages/EducationPage";
@@ -8,7 +8,7 @@ import ProjectsPage from "./Pages/ProjectsPage";
 function App() {
   return (
     <div>
-      <Navigation />
+      <Header />
       <main>
         <LandingPage />
         <AboutPage />

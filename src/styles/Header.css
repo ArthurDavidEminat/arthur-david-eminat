@@ -1,10 +1,10 @@
 /* Navigation Styles */
-.navigation {
+header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background: var(--navy-shadow);
+  background: var(--navy);
   backdrop-filter: blur(10px);
   z-index: 1000;
   padding: 1rem 0;
@@ -32,54 +32,46 @@
 }
 
 .nav-menu {
-  display: flex;
+  /* display: flex;
   list-style: none;
   gap: 2rem;
   margin: 0;
-  padding: 0;
+  padding: 0; */
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+
+  color: var(--lightest-slate);
+  font-family: var(--font-mono);
 }
 
 .nav-item {
+  margin: 0px 5px;
   position: relative;
+  counter-increment: item 1;
+  font-size: var(--fz-xs);
 }
 
 .nav-link {
-  color: var(--white);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: var(--fz-md);
-  padding: 0.5rem 1rem;
-  border-radius: 25px;
-  transition: var(--transition);
-  position: relative;
+  padding: 10px;
 }
 
 .nav-link:hover {
-  background: var(--green-tint);
   color: var(--green);
-  transform: translateY(-2px);
 }
 
-.nav-link::after {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 50%;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(
-    135deg,
-    var(--green) 0%,
-    var(--lightest-navy) 100%
-  );
-  transition: var(--transition);
-  transform: translateX(-50%);
+.nav-link::before {
+  content: "0" counter(item) ".";
+  margin-right: 5px;
+  color: var(--green);
+  font-size: var(--fz-xxs);
+  text-align: right;
 }
-
-.nav-link:hover::after {
-  width: 80%;
-}
-
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -89,7 +81,7 @@
 .bar {
   width: var(--hamburger-width);
   height: 3px;
-  background: var(--white);
+  background: var(--green);
   margin: 3px 0;
   transition: var(--transition);
   border-radius: var(--border-radius);

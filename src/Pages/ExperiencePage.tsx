@@ -35,6 +35,9 @@ function ExperiencePage() {
                     onClick={() => setExperienceToDisplay(experience)}
                   >
                     {experience.company}
+                    {/* {experience.company === "National Social Security Fund" && (
+                      <span>({experience.title})</span>
+                    )} */}
                   </button>
                 </li>
               ))}
