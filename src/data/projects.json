@@ -1,0 +1,71 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Skyfall - Enterprise System Replacement",
+      "description": "Led the replacement of JDE with a new system supporting parameterized products, software as a service, data as a service, agency integration, and developer ecosystem readiness. Delivered 80% process efficiency improvement through AI-powered solutions.",
+      "technologies": [
+        "Enterprise Architecture",
+        "SAP Integration",
+        "AI & Machine Learning",
+        "Cloud Migration",
+        "API Development"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Treadstone - Mobile & Web Analytics Platform",
+      "description": "Rebuilt mobile and web applications into analytics engines and personal assistants to drive engagement. Created comprehensive analytics platform with real-time insights and user engagement optimization.",
+      "technologies": [
+        "React Native",
+        "Web Analytics",
+        "Data Visualization",
+        "User Experience"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Alexa - Benefits STP with Machine Learning",
+      "description": "Implemented a benefits straight-through process powered by machine learning, automating benefit claims processing and reducing manual intervention by 80%. Integrated with Microsoft AI solutions for enhanced accuracy.",
+      "technologies": [
+        "Machine Learning",
+        "Microsoft AI",
+        "Process Automation",
+        "Benefits Processing"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Thunderball - Multi-Payment Platform",
+      "description": "Developed a comprehensive payment platform accepting various payment methods and agent networks for both incoming and outgoing transactions. Integrated multiple payment gateways and blockchain solutions including Bitcoin.",
+      "technologies": [
+        "Payment Processing",
+        "Blockchain Integration",
+        "API Development",
+        "Financial Technology"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Abatis - Knowledge Management System",
+      "description": "Foster internal customer self-service powered by democratization of knowledge and search. Created knowledge base for ITOs & Specialists and self-service capabilities.",
+      "technologies": [
+        "Knowledge Management",
+        "Self-Service",
+        "Democratization",
+        "Search"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Digital Asset Portfolio Management",
+      "description": "Managed multi-million dollar digital asset strategies across Stablecoins, Layer 1/2 (Ethereum, Solana), DeFi, and RWAs. Delivered consistent double-digit returns through systematic risk management and AI-driven sentiment analysis.",
+      "technologies": [
+        "Digital Assets",
+        "DeFi Protocols",
+        "Blockchain Analytics",
+        "Portfolio Optimization"
+      ]
+    }
+  ]
+}

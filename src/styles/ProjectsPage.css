@@ -1,59 +1,57 @@
 /* Projects Section */
-.projects-section {
-  padding: 100px 0;
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
 
 .project-item {
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid #e2e8f0;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
-.project-item:hover {
+/* .project-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+} */
+
+.project-image {
+  grid-row-start: 1;
+  grid-row-end: -1;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  box-shadow: 0 10px 30px -15px var(--navy-shadow);
+  transition: var(--transition);
+  position: relative;
+  z-index: 1;
 }
 
-.project-item.featured {
-  border: 2px solid #667eea;
-  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+.project-image img {
+  width: 100%;
 }
-
-.project-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 1rem;
+.project-content {
+  grid-row-start: 1;
+  grid-row-end: -1;
+  grid-column-start: 5;
+  grid-column-end: -1;
+  text-align: right;
+  position: relative;
 }
-
 .project-title {
-  color: #1a202c;
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.project-status {
-  background: #667eea;
-  color: white;
-  padding: 4px 12px;
-  border-radius: 12px;
-  font-size: 0.8rem;
-  font-weight: 600;
+  color: var(--lightest-slate);
+  font-size: clamp(24px, 5vw, 28px);
+  margin: 0px 0px 5px;
 }
 
 .project-description {
-  color: #4a5568;
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
+  box-shadow: 0 10px 30px -15px var(--navy-shadow);
+  transition: var(--transition);
+  position: relative;
+  z-index: 2;
+  padding: 25px;
+  border-radius: var(--border-radius);
+  background-color: var(--light-navy);
+  color: var(--light-slate);
+  font-size: var(--fz-lg);
 }
 
 .project-tech {
@@ -65,12 +63,11 @@
 }
 
 .project-tech li {
-  background: #e2e8f0;
-  color: #4a5568;
-  padding: 4px 12px;
-  border-radius: 16px;
-  font-size: 0.8rem;
-  font-weight: 500;
+  margin: 0px 20px 5px 0px;
+  color: var(--light-slate);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+  white-space: nowrap;
 }
 
 .project-links {
@@ -92,7 +89,4 @@
 
 /* Responsive Design for Projects Section */
 @media (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
 }
