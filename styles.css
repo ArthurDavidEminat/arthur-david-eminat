@@ -93,6 +93,33 @@ a {
   background-color: var(--lightest-navy);
 }
 
+/* Footer styles */
+.footer {
+  width: 100%;
+  padding: 24px 0 16px 0;
+  text-align: center;
+  background: var(--navy);
+}
+
+.linkedin-link {
+  color: var(--green);
+  transition: color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+.linkedin-link:hover,
+.linkedin-link:focus {
+  color: var(--lightest-slate);
+}
+
+.linkedin-icon {
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .section-title {
