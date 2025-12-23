@@ -1,6 +1,21 @@
 import { projects } from "../data/projects.json";
 import "../styles/ProjectsPage.css";
-import projectOne from "../assets/images/dashboard2.jpg";
+import skyfallDashboard from "../assets/images/skyfall-dashboard.svg";
+import treadstoneDashboard from "../assets/images/treadstone-dashboard.svg";
+import alexaDashboard from "../assets/images/alexa-dashboard.svg";
+import thunderballDashboard from "../assets/images/thunderball-dashboard.svg";
+import abatisDashboard from "../assets/images/abatis-dashboard.svg";
+import portfolioDashboard from "../assets/images/portfolio-dashboard.svg";
+
+// Map project IDs to their respective dashboard images
+const projectImages: { [key: number]: string } = {
+  1: skyfallDashboard,
+  2: treadstoneDashboard,
+  3: alexaDashboard,
+  4: thunderballDashboard,
+  5: abatisDashboard,
+  6: portfolioDashboard,
+};
 
 function ProjectsPage() {
   console.log(projects);
@@ -20,7 +35,10 @@ function ProjectsPage() {
               </ul>
             </div>
             <div className="project-image">
-              <img src={projectOne} />
+              <img
+                src={projectImages[project.id]}
+                alt={`${project.name} dashboard`}
+              />
             </div>
           </div>
         ))}
