@@ -163,7 +163,7 @@ export default function LandingPage() {
               href="https://www.linkedin.com/in/arthur-david-eminat"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-secondary"
+              className="btn btn-linkedin"
             >
               Connect on LinkedIn
             </a>
