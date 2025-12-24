@@ -3,8 +3,8 @@ import "../styles/Header.css";
 
 const navItems = [
   { id: "about", label: "About" },
-  { id: "education", label: "Education" },
   { id: "experience", label: "Experience" },
+  { id: "education", label: "Education" },
   { id: "projects", label: "Projects" },
 ];
 
