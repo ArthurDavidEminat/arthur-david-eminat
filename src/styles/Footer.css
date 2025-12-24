@@ -1,0 +1,99 @@
+/* Footer Styles */
+.footer {
+  width: 100%;
+  padding: 60px 0 30px;
+  background: var(--dark-navy);
+  border-top: 1px solid var(--lightest-navy);
+  margin-top: auto;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  color: var(--green);
+  font-size: var(--fz-lg);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-family: var(--font-mono);
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+  color: var(--light-slate);
+  font-size: var(--fz-sm);
+  text-decoration: none;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-links a:hover {
+  color: var(--green);
+  transform: translateX(5px);
+}
+
+.footer-links .linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.linkedin-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid var(--lightest-navy);
+  margin-top: 2rem;
+}
+
+.footer-bottom p {
+  color: var(--slate);
+  font-size: var(--fz-xs);
+  font-family: var(--font-mono);
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 0 20px;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-section {
+    text-align: center;
+  }
+
+  .footer-links {
+    align-items: center;
+  }
+}
