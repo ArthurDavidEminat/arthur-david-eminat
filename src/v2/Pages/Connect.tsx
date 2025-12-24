@@ -11,13 +11,13 @@ function Connect() {
 
         <div className="cta-actions">
           <a
-            href="/assets/Arthur-Procurement-Resume.pdf"
+            href="/ArthurDEminat-ProcurementResume.pdf"
             className="btn btn-secondary"
           >
             Download Procurement Resume
           </a>
           <a
-            href="/assets/Arthur-Trading-Resume.pdf"
+            href="/ArthurDavidEminat-TraderResume.pdf"
             className="btn btn-secondary"
           >
             Download Trading Resume
