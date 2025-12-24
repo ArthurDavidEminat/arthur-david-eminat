@@ -1,5 +1,7 @@
 import "../styles/LandingPage.css";
 import "../styles/AboutPage.css";
+import AboutPage from "../Pages/AboutPage";
+import EducationPage from "../Pages/EducationPage";
 
 export default function LandingPage() {
   return (
@@ -32,32 +34,13 @@ export default function LandingPage() {
           </a>
         </div>
       </section>
-
+      <AboutPage />
       {/* CREDIBILITY STRIP */}
       <section className="credibility">
         <p>
           10+ years in procurement & strategic sourcing • 5+ years trading
           global markets • $18M+ in cost savings delivered • Multi-asset trading
           experience
-        </p>
-      </section>
-
-      {/* POSITIONING */}
-      <section className="positioning">
-        <h3>A Commercial Decision-Maker Across Two Domains</h3>
-        <p>
-          My career spans enterprise procurement and active participation in
-          financial markets. While the environments differ, the principles
-          remain the same: understand structure, manage risk, price accurately,
-          and execute with discipline.
-        </p>
-        <br />
-        <p>
-          In procurement, I design sourcing strategies, negotiate contracts, and
-          manage supplier risk using analytics and performance frameworks. In
-          trading, I apply supply-demand dynamics, liquidity analysis, and macro
-          context to manage risk and identify opportunity across futures, FX,
-          commodities, and digital assets.
         </p>
       </section>
 
@@ -94,7 +77,7 @@ export default function LandingPage() {
           </p>
 
           <ul>
-            <li>Supply–demand & market structure analysis</li>
+            <li>Supply - demand & market structure analysis</li>
             <li>Volatility regimes & macro catalysts</li>
             <li>Portfolio hedging & scenario modeling</li>
             <li>SQL-driven dashboards for risk & P&L</li>
@@ -106,8 +89,10 @@ export default function LandingPage() {
         </div>
       </section>
 
+      <EducationPage />
+
       {/* PHILOSOPHY */}
-      <section className="philosophy">
+      {/* <section className="philosophy">
         <h3>One Framework. Two Applications.</h3>
         <ul>
           <li>Data over intuition</li>
@@ -115,10 +100,10 @@ export default function LandingPage() {
           <li>Structure before execution</li>
           <li>Discipline over emotion</li>
         </ul>
-      </section>
+      </section> */}
 
       {/* EXPERIENCE SNAPSHOT */}
-      <section className="experience">
+      {/* <section className="experience">
         <h3>Selected Experience</h3>
         <ul>
           <li>
@@ -133,7 +118,7 @@ export default function LandingPage() {
           </li>
           <li>Automation initiatives delivering up to 80% efficiency gains</li>
         </ul>
-      </section>
+      </section> */}
 
       {/* FINAL CTA */}
       <section className="cta">
@@ -172,9 +157,9 @@ export default function LandingPage() {
       </section>
 
       {/* FOOTER */}
-      <footer>
+      {/* <footer>
         <p>MBA | CAIA Level I (In Progress) | CIPS | ESG Certified</p>
-      </footer>
+      </footer> */}
     </main>
   );
 }

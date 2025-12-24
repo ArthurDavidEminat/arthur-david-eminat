@@ -144,9 +144,10 @@
   font-weight: 500;
 }
 
-.experience {
+.experience,
+.positioning {
   /* min-height: 100vh; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 100px 0;
 }
 .philosophy ul,
@@ -184,7 +185,7 @@
 
 .btn-linkedin {
   background: transparent;
-  color: var(--white);
+  color: var(--green);
   border-color: var(--green);
 }
 
