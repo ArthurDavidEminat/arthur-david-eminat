@@ -7,14 +7,11 @@ import TradingPage from "./Pages/TradingPage";
 function App() {
   return (
     <Router>
-      <div>
-        <Header />
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/procurement" element={<ProcurementPage />} />
-          <Route path="/trading" element={<TradingPage />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/procurement" element={<ProcurementPage />} />
+        <Route path="/trading" element={<TradingPage />} />
+      </Routes>
     </Router>
   );
 }

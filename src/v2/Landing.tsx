@@ -5,49 +5,58 @@ import AboutPage from "../Pages/AboutPage";
 import EducationPage from "../Pages/EducationPage";
 import ExperiencePage from "./Pages/ExperiencePage";
 import Connect from "./Pages/Connect";
-
+import Header from "../components/Header";
+const navItems = [
+  { id: "about", label: "About" },
+  { id: "experience", label: "Experience" },
+  { id: "education", label: "Education" },
+  { id: "connect", label: "Let's Connect" },
+];
 export default function LandingPage() {
   return (
-    <main>
-      {/* HERO */}
-      <section id="home" className="hero-section">
-        <div>
-          <h1 className="hi">Hi, my name is</h1>
-        </div>
-        <div>
-          <h1 className="hero-title">Arthur David Eminat</h1>
-        </div>
-        <div>
-          <h2>Procurement Specialist | Trader</h2>
-        </div>
+    <div>
+      <Header navItems={navItems} />
+      <main>
+        {/* HERO */}
+        <section id="home" className="hero-section">
+          <div>
+            <h1 className="hi">Hi, my name is</h1>
+          </div>
+          <div>
+            <h1 className="hero-title">Arthur David Eminat</h1>
+          </div>
+          <div>
+            <h2>Procurement Specialist | Trader</h2>
+          </div>
 
-        <p className="hero-description">
-          I work at the intersection of procurement, risk, and financial markets
-          — applying data-driven decision-making, supply-demand analysis, and
-          disciplined execution to create value across complex commercial
-          environments.
-        </p>
+          <p className="hero-description">
+            I work at the intersection of procurement, risk, and financial
+            markets — applying data-driven decision-making, supply-demand
+            analysis, and disciplined execution to create value across complex
+            commercial environments.
+          </p>
 
-        <div className="hero-buttons">
-          <Link to="/procurement" className="btn btn-primary">
-            Explore Procurement Work
-          </Link>
-          <Link to="/trading" className="btn btn-primary">
-            View Trading Profile
-          </Link>
-        </div>
-      </section>
-      <AboutPage />
+          <div className="hero-buttons">
+            <Link to="/procurement" className="btn btn-primary">
+              Explore Procurement Work
+            </Link>
+            <Link to="/trading" className="btn btn-primary">
+              View Trading Profile
+            </Link>
+          </div>
+        </section>
+        <AboutPage />
 
-      <ExperiencePage />
-      <EducationPage />
+        <ExperiencePage />
+        <EducationPage />
 
-      <Connect />
+        <Connect />
 
-      {/* FOOTER */}
-      {/* <footer>
+        {/* FOOTER */}
+        {/* <footer>
         <p>MBA | CAIA Level I (In Progress) | CIPS | ESG Certified</p>
       </footer> */}
-    </main>
+      </main>
+    </div>
   );
 }

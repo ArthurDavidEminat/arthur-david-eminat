@@ -1,14 +1,17 @@
 import { useState } from "react";
 import "../styles/Header.css";
 
-const navItems = [
-  { id: "about", label: "About" },
-  { id: "experience", label: "Experience" },
-  { id: "education", label: "Education" },
-  { id: "connect", label: "Let's Connect" },
-];
+type NavItem = {
+  id: string;
+  label: string;
+};
 
-function Header() {
+type HeaderProps = {
+  navItems: NavItem[];
+};
+
+function Header(props: HeaderProps) {
+  const { navItems } = props;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {

@@ -162,4 +162,3 @@ function TradingPage() {
 }
 
 export default TradingPage;
-
