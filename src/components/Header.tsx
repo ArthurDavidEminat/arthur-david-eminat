@@ -1,10 +1,7 @@
 import { useState } from "react";
 import "../styles/Header.css";
-
-type NavItem = {
-  id: string;
-  label: string;
-};
+import { NavItem } from "../types";
+import { Link } from "react-router-dom";
 
 type HeaderProps = {
   navItems: NavItem[];
@@ -30,7 +27,9 @@ function Header(props: HeaderProps) {
     <header className="navigation">
       <div className="nav-container">
         <div className="nav-logo">
-          <span className="logo-text">Arthur David Eminat</span>
+          <Link to="/">
+            <span className="logo-text">Arthur David Eminat</span>
+          </Link>
         </div>
 
         <ol className={`nav-menu ${isMenuOpen ? "active" : ""}`}>
