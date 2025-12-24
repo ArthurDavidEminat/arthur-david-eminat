@@ -27,10 +27,12 @@ function TradingPage() {
         <div className="container">
           <h1 className="page-title">Trading & Portfolio Analysis</h1>
           <p className="page-subtitle">
-            Trader and portfolio analyst with five years of experience executing
-            discretionary and systematic strategies across index futures, FX,
-            commodities, and crypto, supported by rigorous risk management and
-            analytics.
+            Digital Asset Strategist with five years of experience managing
+            multi-million dollar institutional portfolios across Stablecoins,
+            Layer 1/2 blockchains, DeFi, and RWAs. Specialized in executing
+            advanced trading strategies, delivering consistent double-digit
+            returns through systematic risk management, portfolio
+            diversification, and AI-driven sentiment analysis.
           </p>
         </div>
       </section>
@@ -39,20 +41,20 @@ function TradingPage() {
         <div className="container">
           <div className="trading-stats">
             <div className="stat-card">
-              <h3>5+ Years</h3>
-              <p>Trading Experience</p>
+              <h3>5 Years</h3>
+              <p>Digital Asset Strategy</p>
             </div>
             <div className="stat-card">
-              <h3>Multi-Asset</h3>
-              <p>Futures, FX, Crypto, Commodities</p>
+              <h3>Multi-Million $</h3>
+              <p>Portfolio Management</p>
             </div>
             <div className="stat-card">
-              <h3>Systematic</h3>
-              <p>Risk Management & Analytics</p>
+              <h3>Double-Digit</h3>
+              <p>Consistent Returns</p>
             </div>
             <div className="stat-card">
               <h3>Institutional</h3>
-              <p>Family Office & Private Clients</p>
+              <p>Family Office & UHNW Clients</p>
             </div>
           </div>
 
@@ -62,28 +64,35 @@ function TradingPage() {
               <div className="expertise-card">
                 <h4>Market Analysis</h4>
                 <ul>
-                  <li>Supply-demand & market structure analysis</li>
+                  <li>
+                    On-chain metrics (transaction volumes, wallet distributions)
+                  </li>
                   <li>COT data & positioning analysis</li>
-                  <li>On-chain metrics & blockchain analytics</li>
-                  <li>Macro context & sector imbalances</li>
+                  <li>Macro positioning strategies & sector rotations</li>
+                  <li>AI-blockchain investment opportunity identification</li>
                 </ul>
               </div>
               <div className="expertise-card">
-                <h4>Trading Strategies</h4>
+                <h4>Trading & Strategy</h4>
                 <ul>
-                  <li>Discretionary & systematic approaches</li>
-                  <li>Volatility regimes & macro catalysts</li>
-                  <li>Portfolio hedging & scenario modeling</li>
-                  <li>Multi-asset allocation strategies</li>
+                  <li>
+                    Advanced trading strategies for family offices & UHNW
+                    clients
+                  </li>
+                  <li>
+                    Portfolio diversification & systematic risk management
+                  </li>
+                  <li>AI-driven sentiment analysis</li>
+                  <li>Strategic asset allocation & portfolio rebalancing</li>
                 </ul>
               </div>
               <div className="expertise-card">
-                <h4>Risk & Analytics</h4>
+                <h4>Risk & Compliance</h4>
                 <ul>
-                  <li>SQL-driven risk & P&L dashboards</li>
-                  <li>Systematic risk management</li>
-                  <li>Portfolio optimization</li>
-                  <li>Performance attribution analysis</li>
+                  <li>Regulatory compliance & tax optimization</li>
+                  <li>Quantum-resistant security protocols</li>
+                  <li>Custody solutions & wallet architecture</li>
+                  <li>DeFi protocol risk mitigation</li>
                 </ul>
               </div>
             </div>
@@ -94,19 +103,25 @@ function TradingPage() {
             <div className="assets-grid">
               <div className="asset-card">
                 <h4>Digital Assets</h4>
-                <p>Stablecoins, Layer 1/2 (Ethereum, Solana), DeFi, RWAs</p>
+                <p>
+                  Stablecoins, Layer 1/2 (Ethereum, Solana), DeFi, RWAs,
+                  Tokenized Bonds
+                </p>
               </div>
               <div className="asset-card">
-                <h4>Futures</h4>
-                <p>Index futures, commodity futures</p>
+                <h4>Emerging Markets</h4>
+                <p>AI-crypto convergence, NFT strategies, Decentralized AI</p>
               </div>
               <div className="asset-card">
-                <h4>FX</h4>
-                <p>Major and emerging market currencies</p>
+                <h4>Traditional Assets</h4>
+                <p>FX, Commodities, Equities</p>
               </div>
               <div className="asset-card">
-                <h4>Commodities</h4>
-                <p>Energy, metals, agricultural products</p>
+                <h4>Infrastructure</h4>
+                <p>
+                  Blockchain interoperability, Digital custody, Wallet
+                  architecture
+                </p>
               </div>
             </div>
           </div>

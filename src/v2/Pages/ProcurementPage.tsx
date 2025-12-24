@@ -28,9 +28,11 @@ function ProcurementPage() {
           <h1 className="page-title">Procurement & Strategic Sourcing</h1>
           <p className="page-subtitle">
             Enterprise procurement professional with over a decade of experience
-            driving cost savings, improving supplier performance, and
-            strengthening risk controls across technology, cloud, SaaS, and
-            financial services environments.
+            at National Social Security Fund, driving $18.97M+ in cost savings,
+            improving supplier performance, and strengthening risk controls
+            across technology, cloud, SaaS, and financial services environments.
+            Expert in strategic sourcing, ESG frameworks, and data-driven
+            procurement optimization.
           </p>
         </div>
       </section>
@@ -54,36 +56,50 @@ function ProcurementPage() {
               <h3>40%</h3>
               <p>Cycle Time Reduction</p>
             </div>
+            <div className="stat-card">
+              <h3>160%</h3>
+              <p>Above Target Asset Revenue</p>
+            </div>
+            <div className="stat-card">
+              <h3>135%</h3>
+              <p>Performance Target Achievement</p>
+            </div>
+            <div className="stat-card">
+              <h3>80%</h3>
+              <p>Process Efficiency Improvement</p>
+            </div>
           </div>
 
           <div className="procurement-expertise">
             <h2 className="section-title">Core Expertise</h2>
             <div className="expertise-grid">
               <div className="expertise-card">
-                <h4>Strategic Sourcing</h4>
+                <h4>Strategic Sourcing & ESG</h4>
                 <ul>
-                  <li>Category management & spend analysis</li>
-                  <li>Multi-million dollar contract negotiations</li>
-                  <li>Supplier relationship management</li>
-                  <li>Market intelligence & benchmarking</li>
+                  <li>ESG sourcing frameworks & category management</li>
+                  <li>$10M+ IT service contract negotiations</li>
+                  <li>50+ regional supplier onboarding & compliance</li>
+                  <li>$100M+ procurement portfolio management</li>
                 </ul>
               </div>
               <div className="expertise-card">
-                <h4>Contract Management</h4>
+                <h4>Contract & Performance Management</h4>
                 <ul>
-                  <li>Contract lifecycle management</li>
-                  <li>Vendor performance optimization</li>
-                  <li>Risk mitigation & compliance</li>
-                  <li>ESG integration frameworks</li>
+                  <li>Contract lifecycle management & optimization</li>
+                  <li>Vendor performance dashboards & tracking</li>
+                  <li>De-risking strategies & supplier risk management</li>
+                  <li>IT Balanced Scorecard (96% success rate)</li>
                 </ul>
               </div>
               <div className="expertise-card">
-                <h4>Analytics & Technology</h4>
+                <h4>Analytics & Process Innovation</h4>
                 <ul>
-                  <li>ERP integration (SAP, Oracle, NetSuite)</li>
-                  <li>Power BI & Tableau dashboards</li>
-                  <li>Process automation & optimization</li>
-                  <li>Data-driven decision support</li>
+                  <li>ERP integration (SAP, Oracle, e-GP)</li>
+                  <li>
+                    Executive dashboards (Power BI, Tableau, Crystal Reports)
+                  </li>
+                  <li>80% contract management efficiency improvement</li>
+                  <li>World Bank e-GP system implementation</li>
                 </ul>
               </div>
             </div>
@@ -140,4 +156,3 @@ function ProcurementPage() {
 }
 
 export default ProcurementPage;
-
