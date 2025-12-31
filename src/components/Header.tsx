@@ -48,7 +48,7 @@ function Header(props: HeaderProps) {
             </li>
           ))}
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a
               href="#connect"
               className="nav-link nav-cta"
@@ -59,7 +59,7 @@ function Header(props: HeaderProps) {
             >
               Contact
             </a>
-          </li>
+          </li> */}
         </ol>
         <div
           className={`nav-toggle ${isMenuOpen ? "active" : ""}`}
