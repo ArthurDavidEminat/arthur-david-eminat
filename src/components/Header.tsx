@@ -47,6 +47,19 @@ function Header(props: HeaderProps) {
               </a>
             </li>
           ))}
+
+          <li className="nav-item">
+            <a
+              href="#connect"
+              className="nav-link nav-cta"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("connect");
+              }}
+            >
+              Contact
+            </a>
+          </li>
         </ol>
         <div
           className={`nav-toggle ${isMenuOpen ? "active" : ""}`}

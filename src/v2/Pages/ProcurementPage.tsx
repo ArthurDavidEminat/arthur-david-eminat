@@ -45,32 +45,20 @@ function ProcurementPage() {
           <div className="container">
             <div className="procurement-stats">
               <div className="stat-card">
-                <h3>$18.97M+</h3>
-                <p>Cost Savings Delivered</p>
+                <h3>$18.9M+</h3>
+                <p>Documented Cost Savings (Enterprise Procurement)</p>
               </div>
               <div className="stat-card">
-                <h3>10+ Years</h3>
-                <p>Procurement Experience</p>
-              </div>
-              <div className="stat-card">
-                <h3>50+ Suppliers</h3>
-                <p>Managed & Onboarded</p>
+                <h3>$100M+</h3>
+                <p>Procurement Portfolio Oversight</p>
               </div>
               <div className="stat-card">
                 <h3>40%</h3>
-                <p>Cycle Time Reduction</p>
+                <p>Cycle Time Reduction (Supplier Onboarding)</p>
               </div>
               <div className="stat-card">
-                <h3>160%</h3>
-                <p>Above Target Asset Revenue</p>
-              </div>
-              <div className="stat-card">
-                <h3>135%</h3>
-                <p>Performance Target Achievement</p>
-              </div>
-              <div className="stat-card">
-                <h3>80%</h3>
-                <p>Process Efficiency Improvement</p>
+                <h3>253+</h3>
+                <p>Suppliers Managed and Onboarded</p>
               </div>
             </div>
 
@@ -80,30 +68,97 @@ function ProcurementPage() {
                 <div className="expertise-card">
                   <h4>Strategic Sourcing & ESG</h4>
                   <ul>
-                    <li>ESG sourcing frameworks & category management</li>
-                    <li>$10M+ IT service contract negotiations</li>
-                    <li>50+ regional supplier onboarding & compliance</li>
-                    <li>$100M+ procurement portfolio management</li>
+                    <li>
+                      Designed ESG-integrated sourcing frameworks that
+                      strengthened supplier compliance, transparency, and
+                      long-term risk oversight across regional portfolios.
+                    </li>
+                    <li>
+                      Led and negotiated $10M+ IT and services contracts,
+                      improving commercial terms while aligning supplier
+                      incentives with performance and governance objectives.
+                    </li>
+                    <li>
+                      Implemented structured supplier onboarding and compliance
+                      processes for 50+ regional suppliers, reducing onboarding
+                      cycle time and operational risk.
+                    </li>
+                    <li>
+                      Governed and optimized $100M+ procurement portfolios,
+                      improving cost control, supplier performance, and audit
+                      readiness across regulated environments.
+                    </li>
                   </ul>
                 </div>
                 <div className="expertise-card">
                   <h4>Contract & Performance Management</h4>
                   <ul>
-                    <li>Contract lifecycle management & optimization</li>
-                    <li>Vendor performance dashboards & tracking</li>
-                    <li>De-risking strategies & supplier risk management</li>
-                    <li>IT Balanced Scorecard (96% success rate)</li>
+                    <li>
+                      Built and managed end-to-end contract lifecycle management
+                      frameworks, improving contract visibility, compliance, and
+                      value realization.
+                    </li>
+                    <li>
+                      Developed vendor performance dashboards and scorecards
+                      that enabled proactive issue identification and
+                      data-driven supplier decisions.
+                    </li>
+                    <li>
+                      Designed and implemented supplier de-risking strategies
+                      that reduced operational exposure and improved continuity
+                      across critical vendor categories.
+                    </li>
+                    <li>
+                      Led implementation of performance measurement frameworks,
+                      achieving a 96% success rate in IT Balanced Scorecard
+                      execution.
+                    </li>
                   </ul>
                 </div>
                 <div className="expertise-card">
                   <h4>Analytics & Process Innovation</h4>
                   <ul>
-                    <li>ERP integration (SAP, Oracle, e-GP)</li>
                     <li>
-                      Executive dashboards (Power BI, Tableau, Crystal Reports)
+                      Integrated ERP and procurement systems to enable
+                      consistent, reliable data flows supporting enterprise
+                      reporting and decision-making.
                     </li>
-                    <li>80% contract management efficiency improvement</li>
-                    <li>World Bank e-GP system implementation</li>
+                    <li>
+                      Designed executive-level dashboards that translated
+                      complex procurement and performance data into actionable
+                      insights for senior leadership.
+                    </li>
+                    <li>
+                      Improved contract management efficiency by 80% through
+                      process redesign, analytics integration, and workflow
+                      optimization.
+                    </li>
+                    <li>
+                      Supported enterprise digital procurement initiatives,
+                      including large-scale e-procurement system
+                      implementations, improving transparency and process
+                      control.
+                    </li>
+                  </ul>
+                </div>
+                <div className="expertise-card">
+                  <h4>Market & Risk Analytics (Applied Capability)</h4>
+                  <ul>
+                    <li>
+                      Applied supply-demand and market structure analysis to
+                      assess risk, volatility regimes, and exposure across
+                      multi-asset portfolios.
+                    </li>
+                    <li>
+                      Built scenario and risk models to evaluate portfolio
+                      sensitivity under changing macroeconomic and liquidity
+                      conditions.
+                    </li>
+                    <li>
+                      Designed analytics dashboards supporting risk monitoring
+                      and performance attribution across futures, FX,
+                      commodities, and digital assets.
+                    </li>
                   </ul>
                 </div>
               </div>

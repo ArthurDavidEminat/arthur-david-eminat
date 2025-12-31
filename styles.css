@@ -48,7 +48,6 @@ button {
 }
 main {
   padding: 0 100px;
-  counter-reset: section;
 }
 a {
   display: inline-block;
@@ -72,15 +71,7 @@ a {
 }
 
 .section-title::before {
-  position: relative;
-  bottom: 4px;
-  counter-increment: section 1;
-  content: "0" counter(section) ".";
-  margin-right: 10px;
-  color: var(--green);
-  font-family: var(--font-mono);
-  font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
-  font-weight: 400;
+  content: none;
 }
 .section-title::after {
   content: "";

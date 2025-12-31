@@ -10,7 +10,6 @@ const navItems = [
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
   { id: "education", label: "Education" },
-  { id: "connect", label: "Let's Connect" },
 ];
 export default function LandingPage() {
   return (
@@ -41,7 +40,7 @@ export default function LandingPage() {
             <Link to="/procurement" className="btn btn-primary">
               View Procurement & ESG Leadership
             </Link>
-            <Link to="/trading" className="btn btn-primary">
+            <Link to="/trading" className="btn btn-secondary">
               Market & Trading Analytics (Applied)
             </Link>
           </div>
