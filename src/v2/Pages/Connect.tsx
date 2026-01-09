@@ -23,7 +23,13 @@ function Connect() {
             Download Trading Resume
           </a>
         </div>
-        <div>
+        <div className="cta-actions">
+          <a
+            href="mailto:arthur.d.eminat@gmail.com"
+            className="btn btn-primary"
+          >
+            Send Email
+          </a>
           <a
             href="https://www.linkedin.com/in/arthur-david-eminat"
             target="_blank"
