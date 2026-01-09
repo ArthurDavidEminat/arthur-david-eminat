@@ -13,8 +13,6 @@ type Experience = {
   achievements: string[];
 };
 
-const navItems: NavItem[] = [];
-
 function TradingPage() {
   // Filter trading-related experiences
   const tradingExperiences: Experience[] = experience.experience.filter(
@@ -27,7 +25,6 @@ function TradingPage() {
 
   return (
     <div>
-      <Header navItems={navItems} />
       <main>
         <section className="trading-hero">
           <div className="container">

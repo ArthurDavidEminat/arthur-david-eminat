@@ -3,20 +3,19 @@ import LandingPage from "./Landing";
 import ProcurementPage from "./Pages/ProcurementPage";
 import TradingPage from "./Pages/TradingPage";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
+import { NAV_ITEMS } from "../constants";
 
 function App() {
   return (
     <Router>
-      <div
-        style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
-      >
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/procurement" element={<ProcurementPage />} />
-          <Route path="/trading" element={<TradingPage />} />
-        </Routes>
-        <Footer />
-      </div>
+      <Header navItems={NAV_ITEMS} />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/procurement" element={<ProcurementPage />} />
+        <Route path="/trading" element={<TradingPage />} />
+      </Routes>
+      <Footer />
     </Router>
   );
 }

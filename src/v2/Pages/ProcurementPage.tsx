@@ -12,7 +12,7 @@ type Experience = {
   duration: string;
   achievements: string[];
 };
-const navItems: NavItem[] = [];
+
 function ProcurementPage() {
   // Filter procurement-related experiences (NSSF roles)
   const procurementExperiences: Experience[] = experience.experience.filter(
@@ -25,7 +25,6 @@ function ProcurementPage() {
 
   return (
     <div>
-      <Header navItems={navItems} />
       <main>
         <section className="procurement-hero">
           <div className="container">
