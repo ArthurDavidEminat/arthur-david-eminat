@@ -41,7 +41,7 @@
   font-size: var(--fz-xl);
   margin: 0px 0px 50px 0px;
   opacity: 0.8;
-  max-width: 600px;
+  /* max-width: 720px; */
   color: var(--light-slate);
 }
 
@@ -113,4 +113,89 @@
   .hero-title {
     font-size: clamp(25px, 5vw, 50px);
   }
+}
+
+/* Adding v2 css */
+/* LandingPage.css */
+
+.credibility {
+  /* background: #f6f6f6; */
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.paths {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.path-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.path-card ul {
+  margin: 1rem 0;
+}
+
+.text-link {
+  font-weight: 500;
+}
+
+.experience,
+.positioning {
+  /* min-height: 100vh; */
+  /* border: 1px solid red; */
+  padding: 100px 0;
+}
+.philosophy ul,
+.experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+.philosophy li::before,
+.experience li::before {
+  content: "• ";
+}
+
+.cta {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta > div {
+  text-align: center;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.cta-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-linkedin {
+  background: transparent;
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.btn-linkedin:hover {
+  background: var(--green);
+  color: var(--dark-navy);
+  transform: translateY(-2px);
+}
+
+.footer {
+  padding-bottom: 2rem;
+  background-color: var(--green);
 }
